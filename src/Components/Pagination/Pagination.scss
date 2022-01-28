@@ -4,7 +4,21 @@
 
     &__button{
         margin: 5px;
-        padding: 18px;
-        background:  aqua;
+        padding: 15px;
+        background: linear-gradient(to bottom,  rgb(4, 255, 255) ,rgb(2, 155, 155) );
+        border: none;
+       
+
+        &:hover{
+        background:  rgb(0, 202, 202);      
+        }
+
+        &:active {
+            background: linear-gradient(to bottom,  rgb(0, 202, 202) ,rgb(2, 155, 155) );
+        }
+    }
+
+    & span {
+        padding: 15px;
     }
 }

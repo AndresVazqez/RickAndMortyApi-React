@@ -1,13 +1,13 @@
 .c-header{
-    background: #000000;
+    background: #000000d2;
     width: 100vw;
-    height: 80px;
+    height: 85px;
     padding: 10px;
     display: flex;
     justify-content: center; 
     align-items: center;
     position: fixed;
-    top: 0;   
+    top: 0; 
     
 
     &__nav{
@@ -22,21 +22,13 @@
             font-weight:  bold;
             color: aqua;
             padding: 8px 0px;
-            font-size: 18px;
-            text-transform: uppercase;
-
-            &:hover {
-               // padding-top: 10px;
-                color: whitesmoke;
-                //border-bottom: 2px solid aqua;
-
-            }
+            font-size: calc(6px + 2vmin);            
+            text-transform: uppercase;            
 
             &.active {
-                border-bottom: 2px solid aqua;
-                color: whitesmoke;
-            }
-            
+                padding-top: 10px;
+                border-bottom: 2px solid rgb(214, 119, 216);               
+            }            
         }      
     }
 }

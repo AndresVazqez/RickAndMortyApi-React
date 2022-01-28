@@ -19,6 +19,8 @@ function App() {
             <Route index element={<HomePage/>}/>
             <Route path="characters" element={<CharactersPage/>}/>
             <Route path="Location" element ={<LocationPage/>}/>
+
+            <Route path='*' element= {<h1>There is nothing here...</h1>}/>
           </Route>
         </Routes>
         <Footer>

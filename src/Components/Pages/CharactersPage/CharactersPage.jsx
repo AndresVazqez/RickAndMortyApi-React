@@ -12,7 +12,7 @@ export default function CharactersPage () {
     const getCharacters = async (newPage = 1) => {       
         
         const res = await axios("https://rickandmortyapi.com/api/character?page=" + newPage);
-        setCharacters(res.data.results)       
+        setCharacters(res.data.results)            
 
     }
     
@@ -26,7 +26,7 @@ export default function CharactersPage () {
 
     return (
         <div className='c-charactersPage' >
-        <h2>Characters</h2>
+        <h1>Characters</h1>
         <Gallery list={characters}/>
         <Pagination getData={getCharacters}/>
         </div>

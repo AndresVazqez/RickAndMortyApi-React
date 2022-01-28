@@ -1,7 +1,106 @@
+@import '../../../index.scss';
+
 .c-homePage{
     text-align: center;
+    padding: 10px;    
+
+    @include desktop {
+        padding: 40px;
+    }
 
     h1{
-        font-size: 56px;
+        font-size: calc(20px + 8vmin);
+        color: rgb(0, 176, 200);
+        -webkit-text-stroke: 2px black;
+        text-shadow: 4px 4px 5px greenyellow;            
+
+        &::selection {
+            color: orange;
+            background: black;
+            text-shadow: none;
+        }
+    }
+
+    &__hero {
+        display: flex;        
+        flex-direction: column;
+        text-align: left;        
+        padding: 10px;
+        margin: 0 auto;
+
+        @include desktop {
+            display: flex;
+            max-width: 1200px; 
+            margin: 0 auto;  
+            
+            h2 {
+                font-size: 56px;                
+            }
+
+            h4 {
+                font-size: 24px;
+                margin: 5px 0px 40px;                
+            }            
+        }  
+
+        h2 {
+            font-size: 32px;
+            margin: 0px;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin: 5px 0px 24px;
+            padding: 5px;
+            font-style: italic;
+        }
+
+        &-span {
+
+            span{
+                padding-bottom:15px;
+            }
+            
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                &:visited {
+                    text-decoration: black;
+                }
+            }
+        }
+
+        &-img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        time{
+            margin-bottom: 35px;
+            margin-top: 10px;
+
+            span{
+                margin-left: 20px;
+            }    
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        &-text {            
+            width: 100%;
+            margin: 0 auto;
+            line-height: 1.7rem;
+            
+            p {
+                margin: 32px 0px;
+            } 
+            
+            @include desktop {
+
+                width: 60%;
+            }
+        }        
     }
 }
