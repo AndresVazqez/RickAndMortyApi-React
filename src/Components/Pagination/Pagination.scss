@@ -10,7 +10,8 @@
        
 
         &:hover{
-        background:  rgb(0, 202, 202);      
+        background:  rgb(0, 202, 202);
+            
         }
 
         &:active {
@@ -20,5 +21,6 @@
 
     & span {
         padding: 15px;
+        font-size: 22px;
     }
 }

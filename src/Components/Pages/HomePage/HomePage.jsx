@@ -16,7 +16,7 @@ export default function HomPage() {
         </time>
         <img
           className="c-homePage__hero-img"
-          src="../Images/rick-morty-.jpg"
+          src="./Images/rick-morty-.jpg"
           alt=""
         />
         <div className="c-homePage__hero-text" >
@@ -46,6 +46,16 @@ export default function HomPage() {
             show y que puedes compartir nuestra comunidad lo que más te gusta o
             te ha sorprendido (hasta ahora) de "Rick y Morty".
           </p>
+          <h3>Sus sorprendentes personajes</h3>
+          <p>
+          Scary Terry, Mr. Meeseeks, Abradolf Lincler, Birdperson... Los personajes 
+          que hemos descubierto a lo largo de las dos temporadas de esta serie animada 
+          son increíbles. Cada uno es extrañamente atrayente y con una historia que 
+          nos da escalofríos o nos tumba de risa. La riqueza de los personajes es, 
+          sin duda, uno de los factores que permite la alocadísima combinación de 
+          sátira y comedia.
+          </p>
+          <img src="./Images/rick-and-morty-personajes.jpg" alt="RickandmMorty Personajes" />
         </div>
       </article>
     </section>
