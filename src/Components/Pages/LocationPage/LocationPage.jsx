@@ -13,7 +13,7 @@ export default function LocationPage () {
         const res = await axios ("https://rickandmortyapi.com/api/location?page=" + newPage);
 
         setLocation(res.data.results)
-        console.log(res.data.results)
+       
     }
 
     useEffect(()=> {

@@ -1,6 +1,8 @@
+@import '../../index.scss';
+
 .c-header{
     background: #000000d2;
-    width: 100vw;
+    width: 100%;
     height: 85px;
     padding: 10px;
     display: flex;
@@ -20,14 +22,14 @@
             margin: 15px;
             text-decoration: none;
             font-weight:  bold;
-            color: aqua;
+            color: $principal-color;
             padding: 8px 0px;
-            font-size: calc(6px + 2vmin);            
+            font-size: calc(4px + 2vmin);            
             text-transform: uppercase;            
 
             &.active {
                 padding-top: 10px;
-                border-bottom: 2px solid rgb(214, 119, 216);               
+                border-bottom: 2px solid $secundary-color;               
             }            
         }      
     }

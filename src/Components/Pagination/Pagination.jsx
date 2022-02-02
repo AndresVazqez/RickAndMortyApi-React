@@ -5,7 +5,9 @@ import './Pagination.scss';
 export default function Pagination ({getData}) {
     const [actualPage, setActualPage] = useState(1);
 
-    const changePage = (newPage) => {
+
+    const changePage = (newPage) => {       
+        
 
         getData(newPage);
         setActualPage(newPage);

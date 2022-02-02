@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Luxurious+Roman&display=swap');
 
 
+//Resets
+
+body {
+  margin: 0;
+  padding: 0;  
+  //background: rgb(30, 30, 30);
+  color: whitesmoke;
+  color: #000000;
+  padding-top: 100px;
+  //font-family: "Times New Roman" "Balsamiq Sans", "sans-serif", 'Courier New';
+  text-align: center;  
+}
+
+//Variables
+
+$principal-color: rgb(60, 248, 143);
+$secundary-color: rgb(255, 121, 198);
+$grey-color: rgb(218, 218, 218);
+
 $tablet: 768px;
 $desktop: 992px;
 $large: 1200px;
@@ -22,12 +41,3 @@ $large: 1200px;
       @content;
     }
   }
-body {
-  margin: 0;
-  padding: 0;  
-  background: rgb(30, 30, 30);
-  color: whitesmoke;
-  padding-top: 100px;
-  //font-family: "Times New Roman" "Balsamiq Sans", "sans-serif", 'Courier New';
-  text-align: center;  
-}

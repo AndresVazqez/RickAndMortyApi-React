@@ -5,17 +5,17 @@
     &__button{
         margin: 5px;
         padding: 15px;
-        background: linear-gradient(to bottom,  rgb(4, 255, 255) ,rgb(2, 155, 155) );
+        background: linear-gradient(45deg,  rgb(60, 248, 143) ,rgb(132, 238, 178) );
         border: none;
        
 
         &:hover{
-        background:  rgb(0, 202, 202);
+        background:  rgb(61, 243, 140);
             
         }
 
         &:active {
-            background: linear-gradient(to bottom,  rgb(0, 202, 202) ,rgb(2, 155, 155) );
+            background: linear-gradient(to bottom,  rgb(60, 248, 143) ,rgb(132, 238, 178) );
         }
     }
 
