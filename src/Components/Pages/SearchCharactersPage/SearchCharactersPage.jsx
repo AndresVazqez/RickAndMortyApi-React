@@ -1,4 +1,4 @@
-import { useState } from 'react/cjs/react.development';
+import React, { useState } from 'react';
 import './SearchCharactersPage.scss';
 import Axios from 'axios';
 import Gallery from '../../Gallery/Gallery';
