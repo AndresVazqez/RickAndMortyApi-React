@@ -19,13 +19,18 @@
         
         
         &--a {
-            margin: 15px;
+            margin: 10px;
             text-decoration: none;
             font-weight:  bold;
             color: $principal-color;
             padding: 8px 0px;
             font-size: calc(4px + 2vmin);            
-            text-transform: uppercase;            
+            text-transform: uppercase;
+            
+            @include desktop {
+
+                margin: 0px 15px;
+            }
 
             &.active {
                 padding-top: 10px;
